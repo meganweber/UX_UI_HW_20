@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -8,5 +8,131 @@
 </head>
 
 <body>
-    
+
+<div class="logo">
+	<img src="images/logo.jpg" alt="LOGO">
+</div>
+
+<section>
+	<ul class="nav justify-content-center">
+		<li class="nav-item">
+			<a class="nav-link" href="#">home</a>
+		  </li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#">about me</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#">my work</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">skills</a>
+		</li>
+	  </ul>
+</section>    
+
+<section class="heroImg">
+	<div class="content">
+		<h2>the dirt</h2>
+			<div class="picture" data-tilt> <img src="images/theDirt.jpg" width="200px" height="200px">
+			</div>
+		<p>taking the headache out of travel activity planning</p>
+		
+	</div>
+</section>
+
+
+
+
+
+<section>
+	<div class="accordion" id="accordionExample">
+		<div class="accordion-item">
+		  <h2 class="accordion-header" id="headingOne">
+			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+			  empathize & design
+			</button>
+		  </h2>
+		  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+			<img class="inline-block" src="images/Research.jpeg" width="200" height="200">
+			<div class="accordion-body inline-block">
+			  <p><strong>Traveling in large groups can be hectic.</strong> We conducted user interviews of those who have traveled with family to uncover a pain point that our app could solve. That information was synthesized into affinity diagram & empathy map to uncover the problem:</p>
+			  
+			 <p><strong>Group travelers on the go need to be able to feel empowered when making decisions about activities because it can be difficult to find activities that everyone will enjoy.</strong></p> 
+				
+				
+			</div>
+		  </div>
+		</div>
+		<div class="accordion-item">
+		  <h2 class="accordion-header" id="headingTwo">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+			  ideate & prototype
+			</button>
+		  </h2>
+		  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+			<img class="inline-block" src="images/design.jpeg" width="200" height="200">
+			<div class="accordion-body inline-block">
+			  <strong>Meeting the challenge of pleasing a diverse group of people is tough.</strong> We set out to deliver an app that... 
+			  <ul>
+				  <li>Delivers immersive insight from travelers and locals</li>
+				  <li>Supports multiple, thematic preferences to yeild people pleasing results</li>
+			  </ul>
+			  
+			</div>
+		  </div>
+		</div>
+		<div class="accordion-item">
+		  <h2 class="accordion-header" id="headingThree">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+			  test & iterate
+			</button>
+		  </h2>
+		  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+			<img class="inline-block" src="images/coding.jpeg" width="200" height="200">
+			<div class="accordion-body inline-block">
+			  <strong>Conducted Guerilla Testing</strong> to understand how people would search for activities.  Testing yielded great insights and improvements:
+			  <ul>
+				  <li>Ability to add favorites using a heart icon</li>
+				  <li>Additional confirmations when an action had been taken</li>
+				  <li>Added location services</li>
+				  <li>More definition between local and traveler reviews</li>
+			  </ul>
+			</div>
+			</div>
+	  </div>
+</section>
+
+<div class="final">
+	<h2>final product</h2>
+</div>
+
+<section class="carousel">
+
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="images/iteration1.png" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/iteration2.png" class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="images/theDirt.jpg" class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="visually-hidden">Next</span>
+		</button>
+	  </div>
+
+</section>
+
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</html>
